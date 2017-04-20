@@ -73,7 +73,7 @@ def runNode(node):
 	global currentNode
 
 	# Print the description
-	print "\n\n\n" + strip(node.description) + "\n"
+	print "\n\n" + strip(node.description) + "\n"
 
 	# Collect your options and check for end
 	options = []
@@ -82,7 +82,7 @@ def runNode(node):
 			options.append(ob)
 
 		if isinstance(ob, NodeEnd):
-			print("\n\n\nGAME OVER\n\n\n")
+			print("\nGAME OVER\n\n\n")
 			currentNode = -1
 			return
 
