@@ -56,7 +56,7 @@ class HomeObject(List):
 
 def play(results):
 	name = raw_input("Enter your name, hero > ")
-	print("Welcome, " + name)
+	print("Welcome, " + name + "!")
 	print(results)
 
 def parseFile(filename):

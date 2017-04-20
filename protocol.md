@@ -12,7 +12,7 @@ source env/bin/activate
 
 ## 2. Install PyPEG2
 
-Note: PyPeg2 is a *Python 3* library.
+Note: PyPeg2 is a Python 2.7+ library. This repo contains examples using Python 2.7.
 
 ```
 pip install pypeg2
