@@ -1,5 +1,5 @@
-global score		= 0
-global derringDo	= 10
+global score = 0
+global derringDo = 10
 
 node theBeginning {
 	describe "Two roads diverge in a yellow wood. Which do you take?"
@@ -7,7 +7,7 @@ node theBeginning {
 		goto lostInTheForest
 	}
 	option "the road with all the signs" {
-		goto 
+		goto theMall
 	}
 }
 
@@ -17,7 +17,6 @@ node lostInTheForest {
 		goto theDark
 	}
 	option "bravely carry on" {
-		require derringDo > 5 else "You aren't brave enough to carry on."
 		goto adventureTown
 	}
 }
