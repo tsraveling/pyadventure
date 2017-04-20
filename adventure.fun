@@ -33,6 +33,6 @@ node theDark {
 
 
 node theMall {
-	describe "You have arrived at that temple to modern American capitalism, the mall. You are sucked in by its gravitational orbit and consumed"
+	describe "You have arrived at that temple to modern American capitalism, the mall. You are sucked in by its gravitational orbit and consumed."
 	end
 }
