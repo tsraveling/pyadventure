@@ -1,5 +1,7 @@
 # PyAdventure
 
+This project was built for a presentation at [Surge](http://surgeforward.com/).
+
 All code can be found in `parser.py`. The adventure itself can be found in `adventure.fun` and can be edited with your favorite text editor. To run your adventure, first set up a virtual environment with PyPEG2 enabled:
 ```
 > cd project_root
